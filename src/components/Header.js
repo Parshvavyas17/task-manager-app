@@ -11,8 +11,8 @@ const Header = (props) => {
     <header className='header'>
       <h1>{props.title}</h1>
       <Button title='Add' color='green' onClick={on_click}/>
-      <Button title='Remove' color='red' onClick={on_click}/>
-      <Button title='Edit' color='blue' onClick={on_click}/>
+      {/* <Button title='Remove' color='red' onClick={on_click}/>
+      <Button title='Edit' color='blue' onClick={on_click}/> */}
     </header>
   )
 }
