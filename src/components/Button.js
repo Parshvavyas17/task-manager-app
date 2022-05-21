@@ -2,7 +2,7 @@ import PropTypes from 'prop-types'
 
 const Button = (props) => {
   return (
-    <button className='btn' style={{backgroundColor:props.color}} onClick={props.onClick}>{props.title}</button>
+    <button className='btn' style={{backgroundColor:props.color}} onClick={props.onClick}>{props.text}</button>
   )
 }
 
